@@ -67,6 +67,8 @@ namespace Praktikum_Offlen_1
             listBoxKoleksi.Items.Clear();
             labelHasilOutput.ForeColor = Color.Black;
             labelHasilOutput.Text = "...";
+            radioButtonMerah.Checked = true;
+            checkBoxAktif.Checked = false;
         }
     }
 }
